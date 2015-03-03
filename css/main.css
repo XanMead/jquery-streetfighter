@@ -6,6 +6,11 @@
 
 /**/
 
+@font-face {
+	font-family: stan-lee;
+	src: url('../fonts/animeace2_reg.otf');
+}
+
 body {
 	background-color: black;
 }
@@ -16,7 +21,7 @@ body {
 	margin-top: 110px;
 	padding-left: 100px;
 	min-width: 1200px;
-	position: relative; /* ??? */
+	position: relative;
 	z-index: 1;
 }
 
@@ -70,10 +75,9 @@ body {
 	position: absolute;
 	top: 150px;
 	left: 650px;
-	font-size: 2em;
-	font-family: sans-serif;
-	font-variant: small-caps;
-	width: 600px;
+	font-size: 1.5em;
+	font-family: stan-lee;
+	width: 500px;
 	margin: 0;
 }
 
